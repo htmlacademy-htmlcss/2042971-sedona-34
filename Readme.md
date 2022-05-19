@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Natalia Julkunen](https://up.htmlacademy.ru/htmlcss/34/user/2042971).
-* Наставник: `Анна Волкова`.
+* Наставник: `Анна Волкова \m/` (https://htmlacademy.ru/profile/id477715).
 
 ---
 
