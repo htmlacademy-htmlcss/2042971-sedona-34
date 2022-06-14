@@ -4,72 +4,106 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
-  <header class="page-header">
-    <img class="logo" src="./images/logo.svg" width="" height="" alt="Логотип городка Седона">
+  <header class="page-header wrapper">
+    <a href="index.html"><img class="logo" src="images/logo.svg" width="130" height="70"
+        alt="Логотип городка Седона"></a>
 
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="main.html">Главная</a>
+          <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="about.html">О Седоне</a>
+          <a class="navigation-link" href="#">О Седоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="hotels.html">Гостиницы</a>
+          <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
     </nav>
 
-    <a class="navigation-link" href="#">
-      <span class="visually-hidden">
-        Поиск<img class="" src="./images/Поиск.svg" width="" height="" alt="поиск">
-      </span>
+    <a class="navigation-link etsi" href="#">
+      <span class="visually-hidden">Поиск</span>
     </a>
 
-    <a class="navigation-link" href="#">
-      <span class="visually-hidden">
-        Избранные <img class="" src="./images/favorite.svg" width="" height="" alt="избранные">
-      </span>
+    <a class="navigation-link heart" href="#">
+      <span class="visually-hidden">Избранные</span>
     </a>
 
-    <a class="navigation-link" href="#">
-      <span class="visually-hidden">
-        Каталог
-      </span>
+    <a class="navigation-link" href="catalog.html">
+      <span>Хочу сюда!</span>
     </a>
   </header>
-
-    <footer>
-    <section class="footer">
-      <ul class="footer-social-list">
-        <li class="footer-social-item">
-          <a class="social-link" href="https://vk.com/htmlacademy">
-            <span class="visualiiy-hidden">VK</span>
-            <img src="./images/vk.svg" width="24px" height="14px" alt="значок вконтакте">
-          </a>
-        </li>
-        <li class="footer-social-item">
-          <a class="social-link" href="https://t.me/htmlacademy">
-            <span class="visualiiy-hidden">Twitter</span>
-            <img src="./images/tvitter.svg" width="18px" height="16px" alt="значок твиттер">
-          </a>
-        </li>
-        <li class="footer-social-item">
-          <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
-            <span class="visualiiy-hidden">Youtube</span>
-            <img src="./images/youtube.svg" width="22px" height="17px" alt="значок ютуб">
-          </a>
-        </li>
-      </ul>
-      <a class="contacts-phone" href="tel:78128121212">+7 (812) 812-12-12</a>
-      <a class="logo-html-academy" href="https://htmlacademy.ru/">
-        <img src="./images/HTMLAcademy.svg" alt="лого академии">
-      </a>
+  <main>
+    <section class="hotels wrapper">
+      <h1 class="sedonas-hotels">
+        Гостиницы Седоны
+      </h1>
+      <a class="dom" href="#">дом</a>
+      <a class="dom1" href="#">></a>
+      <span class="hot">Гостиницы</span>
     </section>
+    <section class="wrapper">
+
+    <form action="#">
+      <fieldset>
+        <legend>Инфраструктура</legend>
+        <input id="swimming-pool" type="checkbox" name="swimming-pool" checked>
+        <label for="swimming-pool">Бассейн</label>
+        <input id="parking" type="checkbox" name="parking" checked>
+        <label for="parking">Парковка</label>
+        <input id="Wi-Fi" type="checkbox" name="Wi-Fi">
+        <label for="Wi-Fi">Wi-Fi</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Тип Жилья</legend>
+        <input id="hotel" type="radio" checked name="type-of-house">
+        <label for="hotel">Гостиница</label>
+        <input id="motel" type="radio" name="type-of-house">
+        <label for="motel">Мотель</label>
+        <input id="apartments" type="radio" name="type-of-house">
+        <label for="apartments">Апартаменты</label>
+      </fieldset>
+      <input type="submit" name="apply-filter" value="Применить">
+      <button type="reset" name="clean-filter" value="сбросить"></button>
+    </form>
+    </section>
+
+    <section class="sortin-hotels wrapper">
+      <h2 class="visually-hidden">Сортировка гостиниц</h2>
+      <p class="hotels-found"> найдено гостиниц: 38</p>
+    </section>
+
+
+  </main>
+
+  <footer class="wrapper">
+    <ul class="footer-social-list">
+      <li class="footer-social-item-vk">
+        <a class="social-link" href="https://vk.com/htmlacademy">
+          <span class="visually-hidden">VK</span>
+        </a>
+      </li>
+      <li class="footer-social-item-tvitter">
+        <a class="social-link" href="https://t.me/htmlacademy">
+          <span class="visually-hidden">Twitter</span>
+        </a>
+      </li>
+      <li class="footer-social-item-youtube">
+        <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
+          <span class="visually-hidden">Youtube</span>
+        </a>
+      </li>
+    </ul>
+    <a class="contacts-phone" href="tel:78128121212">+7 (812) 812-12-12</a>
+    <a class="logo-html-academy" href="https://htmlacademy.ru/">
+      <img src="images/HTMLAcademy.svg" alt="лого академии" width="115" height="34">
+    </a>
   </footer>
 </body>
 

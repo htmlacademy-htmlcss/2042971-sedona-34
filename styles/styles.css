@@ -39,17 +39,23 @@
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 body {
-  font-family: "PT Sans", sans-serif;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #242424;
   background-color: #F2F2F2;
-  ;
+  margin: 0;
 }
 
 .page-header {
@@ -58,23 +64,40 @@ body {
   background-color: #ffffff;
 }
 
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 15px #e5e5e5;
+}
+.logo{
+  padding: 0;
+  padding-left: 70px;
+}
+.navigation-list{
+  display: flex;
+}
+.navigation{
+  display: flex;
+}
+
 .navigation-link {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
-  font size: 20px;
-  line height: 26px;
+  font-size: 20px;
+  line-height: 26px;
   text-align: center;
   text-decoration: none;
   color: inherit;
 }
 
 .etsi {
-  background-image: url("/images/Поиск.svg");
+  background-image: url("./images/Поиск.svg");
   background-repeat: no-repeat;
 }
 
 .heart {
-  background-image: url("/images/favorite.svg");
+  background-image: url("./images/favorite.svg");
   background-repeat: no-repeat;
 }
 
@@ -87,8 +110,8 @@ body {
 .what-is-sedona {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
-  font size: 30px;
-  line height: 36px;
+  font-size: 30px;
+  line-height: 36px;
   text-align: center;
 }
 
@@ -100,16 +123,16 @@ body {
 .causes {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
-  font size: 22px;
-  line height: 26px;
+  font-size: 22px;
+  line-height: 26px;
   text-align: center;
 }
 
 .advantages-title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
-  font size: 24px;
-  line height: 28px;
+  font-size: 24px;
+  line-height: 28px;
   text-align: center;
   color: #ffffff;
   background-color: #82B3D3;
@@ -118,33 +141,31 @@ body {
 .advantages-list {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
-  font size: 18px;
-  line height: 21px;
+  font-size: 18px;
+  line-height: 21px;
   text-align: center;
   background-color: #82B3D3;
   color: #000000;
 }
 
-.numbers_1_2 {
+.numbers-1-2 {
   color: #ffffff;
   background-color: #82B3D3;
 }
 
-.numbers_4 {
+.numbers-4 {
   color: #000000;
   background-color: rgba(131, 179, 211, 0.2);
   ;
 }
 
-.black {
+.text-color-1 {
   color: #000000;
 }
 
-.white {
+.text-color-2 {
   color: #ffffff;
 }
-
-
 
 .index-columns {
   color: #000000;
@@ -153,10 +174,6 @@ body {
 
 .advantages-list {
   text-align: center;
-}
-
-li {
-  display: flex;
 }
 
 .img-street {
@@ -197,11 +214,11 @@ li {
   color: #ffffff;
 }
 
-.serch {
+.search {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
-  font size: 20px;
-  line height: 36px;
+  font-size: 20px;
+  line-height: 36px;
   text-align: center;
 }
 
@@ -228,5 +245,36 @@ li {
 
 .footer-social-item-youtube {
   background-image: url("/images/youtube.svg");
+  background-repeat: no-repeat;
+}
+
+.hotels {
+  background-image: url("/images/filtr.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.sedonas-hotels {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.hot {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.dom {
+  background-image: url("/images/union.svg");
+  background-repeat: no-repeat;
+}
+
+.dom1 {
+  background-image: url("/images/Vector\ \(1\).svg");
   background-repeat: no-repeat;
 }
