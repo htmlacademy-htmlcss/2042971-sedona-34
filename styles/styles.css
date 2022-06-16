@@ -70,14 +70,17 @@ body {
   background-color: #ffffff;
   box-shadow: 0 0 15px 15px #e5e5e5;
 }
+
 .logo {
   padding: 0;
   padding-left: 70px;
 }
-.navigation-list{
+
+.navigation-list {
   display: flex;
 }
-.navigation{
+
+.navigation {
   display: flex;
 }
 
@@ -92,7 +95,7 @@ body {
 }
 
 .search-header {
-  background-image: url("./images/Поиск.svg");
+  background-image: url("./images/.search.svg");
   background-repeat: no-repeat;
 }
 
