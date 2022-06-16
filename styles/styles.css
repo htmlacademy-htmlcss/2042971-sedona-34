@@ -70,7 +70,7 @@ body {
   background-color: #ffffff;
   box-shadow: 0 0 15px 15px #e5e5e5;
 }
-.logo{
+.logo {
   padding: 0;
   padding-left: 70px;
 }
@@ -91,7 +91,7 @@ body {
   color: inherit;
 }
 
-.etsi {
+.search-header {
   background-image: url("./images/Поиск.svg");
   background-repeat: no-repeat;
 }
@@ -148,12 +148,12 @@ body {
   color: #000000;
 }
 
-.numbers-1-2 {
+.bground-1-2 {
   color: #ffffff;
   background-color: #82B3D3;
 }
 
-.numbers-4 {
+.bground-4 {
   color: #000000;
   background-color: rgba(131, 179, 211, 0.2);
   ;
@@ -183,7 +183,7 @@ body {
 }
 
 .img-most {
-  background-image: url("/images/most.png");
+  background-image: url("/images/bridge.png");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -275,6 +275,6 @@ body {
 }
 
 .dom1 {
-  background-image: url("/images/Vector\ \(1\).svg");
+  background-image: url("/images/pichouse.svg");
   background-repeat: no-repeat;
 }
