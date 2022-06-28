@@ -84,6 +84,10 @@ body {
   display: flex;
 }
 
+.navigation-item {
+  list-style-type: none;
+}
+
 .navigation-link {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
@@ -95,17 +99,17 @@ body {
 }
 
 .search-header {
-  background-image: url("./images/.search.svg");
+  background-image: url("../images/search.svg");
   background-repeat: no-repeat;
 }
 
 .heart {
-  background-image: url("./images/favorite.svg");
+  background-image: url("../images/favorite.svg");
   background-repeat: no-repeat;
 }
 
 .welcome {
-  background-image: url("/images/index-background.png");
+  background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -121,6 +125,7 @@ body {
 .about-sedona {
   width: 458px;
   height: 352px;
+  margin: 50px 400px;
 }
 
 .causes {
@@ -129,6 +134,11 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+}
+
+.advant {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .advantages-title {
@@ -149,6 +159,7 @@ body {
   text-align: center;
   background-color: #82B3D3;
   color: #000000;
+  text-align: center;
 }
 
 .bground-1-2 {
@@ -175,40 +186,48 @@ body {
   background-color: #ffffff;
 }
 
-.advantages-list {
-  text-align: center;
-}
-
 .img-street {
-  background-image: url("/images/street-sedona.png");
+  background-image: url("../images/street.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  width: 700px;
+  height: 384px;
+  padding: 0;
 }
 
-.img-most {
-  background-image: url("/images/bridge.png");
+.img-bridge {
+  background-image: url("../images/bridge.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  list-style-type: none;
+  width: 700px;
+  height: 384px;
+  margin-left: -40px;
+  padding: 0;
 }
 
 .img-house {
-  background-image: url("/images/house.svg");
+  background-image: url("../images/house.svg");
   background-repeat: no-repeat;
+  padding: 60px;
+
 }
 
 .img-food {
-  background-image: url("/images/food.svg");
+  background-image: url("../images/food.svg");
   background-repeat: no-repeat;
+  padding: 60px;
 }
 
 .img-gift {
-  background-image: url("/images/gift.svg");
+  background-image: url("../images/gift.svg");
   background-repeat: no-repeat;
+  padding: 60px;
 }
 
-.advantages-item-img {
-  display: block;
-  width: 800px;
+.advantages-item {
+  list-style-type: none;
+  width: 380px;
   height: 384px;
 }
 
@@ -226,7 +245,7 @@ body {
 }
 
 .subscribe {
-  background-image: url("/images/background.png");
+  background-image: url("../images/background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -235,24 +254,32 @@ body {
   color: #ffffff;
 }
 
-
 .footer-social-item-vk {
-  background-image: url("/images/vk.svg");
+  background-image: url("../images/vk.svg");
   background-repeat: no-repeat;
+
 }
 
 .footer-social-item-tvitter {
-  background-image: url("/images/tvitter.svg");
+  background-image: url("../images/tvitter.svg");
   background-repeat: no-repeat;
 }
 
 .footer-social-item-youtube {
-  background-image: url("/images/youtube.svg");
+  background-image: url("../images/youtube.svg");
   background-repeat: no-repeat;
 }
 
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .hotels {
-  background-image: url("/images/filtr.png");
+  background-image: url("../images/filter.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -273,11 +300,11 @@ body {
 }
 
 .dom {
-  background-image: url("/images/union.svg");
+  background-image: url("../images/union.svg");
   background-repeat: no-repeat;
 }
 
 .dom1 {
-  background-image: url("/images/pichouse.svg");
+  background-image: url("../images/pichouse.svg");
   background-repeat: no-repeat;
 }
